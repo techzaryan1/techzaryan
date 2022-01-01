@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy New Year 2022</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Varela Round', sans-serif;
+	}
+	
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #111;
+	}
+	
+	h2 {
+	font-size: 8vw;
+	display: flex;
+	color: transparent;
+	}
+	
+	h2 span {
+	animation: animate 3s linear infinite;
+	animation-delay: calc(0.1s * var(--i));
+	
+	}
+	
+	@keyframes animate {
+	0% {
+	color: #fff;
+	filter: blur(0.5px) hue-rotate(0deg);
+	text-shadow: 0 0 10px #00b3ff, 
+	0 0 20px #00b3ff, 
+	0 0 40px #00b3ff, 
+	0 0 80px #00b3ff, 
+	0 0 120px #00b3ff, 
+	0 0 200px #00b3ff, 
+	0 0 300px #00b3ff, 
+	0 0 400px #00b3ff;
+	}
+	30%, 70% {
+	color: #fff;
+	filter: blur(0.5px) hue-rotate(360deg);
+	text-shadow: 0 0 10px #00b3ff, 
+	0 0 0 20px #00b3ff, 
+	0 0 40px #00b3ff, 
+	0 0 80px #00b3ff, 
+	0 0 120px #00b3ff, 
+	0 0 200px #00b3ff, 
+	0 0 300px #00b3ff, 
+	0 0 400px #00b3ff;
+	}
+	100% {
+	color: transparent;
+	box-shadow: none;
+	filter: blur(0.5px) hue-rotate(0deg);
+	}
+	}
+
+    </style>
+  </head>
+  <body>
+	<h2>
+		<span style="--i:1;">H</span>
+		<span style="--i:2;">A</span>
+		<span style="--i:3;">P</span>
+		<span style="--i:4;">P</span>
+		<span style="--i:5;">Y</span>
+		<span style="--i:6;margin-left: 1vw;">N</span>
+		<span style="--i:7;">E</span>
+		<span style="--i:8;">W</span>
+		<span style="--i:9;margin-left: 1vw">Y</span>
+		<span style="--i:10;">E</span>
+		<span style="--i:11;">A</span>
+		<span style="--i:12;">R</span>
+		<span style="--i:13;margin-left: 1vw">2</span>
+		<span style="--i:14;">0</span>
+		<span style="--i:15;">2</span>
+		<span style="--i:16;">2</span>
+	</h2>
+  </body>
+</html>
